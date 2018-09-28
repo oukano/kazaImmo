@@ -39,7 +39,8 @@
 
 		<!--end::Global Theme Styles -->
 
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+	<link href="{{ asset('css/app.css') }}" rel="stylesheet">
+	<link href="{{ asset('datatables.bundle.css') }}" rel="stylesheet" type="text/css" />
 		  
 		<!--end::Page Vendors Styles -->
 		<link rel="shortcut icon" href="assets/demo/media/img/logo/favicon.ico" />
@@ -661,6 +662,349 @@
 				</div>
 
 				<!-- END: Left Aside -->
+				<div class="m-grid__item m-grid__item--fluid m-wrapper">
+
+					<!-- BEGIN: Subheader -->
+					<div class="m-subheader ">
+						<div class="d-flex align-items-center">
+							<div class="mr-auto">
+								<h3 class="m-subheader__title ">Dashboard</h3>
+							</div>
+							<div>
+								<span class="m-subheader__daterange" id="m_dashboard_daterangepicker">
+									<span class="m-subheader__daterange-label">
+										<span class="m-subheader__daterange-title"></span>
+										<span class="m-subheader__daterange-date m--font-brand"></span>
+									</span>
+									<a href="#" class="btn btn-sm btn-brand m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill">
+										<i class="la la-angle-down"></i>
+									</a>
+								</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- END: Subheader -->
+					<div class="m-content">
+
+						<!--Begin::Section-->
+						<div class="row">
+						<table class="table table-striped- table-bordered table-hover table-checkable dataTable no-footer dtr-inline" id="m_table_1" role="grid" aria-describedby="m_table_1_info" style="width: 979px;">
+									<thead>
+										<tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="m_table_1" rowspan="1" colspan="1" style="width: 132.25px;" aria-sort="ascending" aria-label="Agent: activate to sort column descending">Agent</th><th class="sorting" tabindex="0" aria-controls="m_table_1" rowspan="1" colspan="1" style="width: 213.25px;" aria-label="Company Email: activate to sort column ascending">Company Email</th><th class="sorting" tabindex="0" aria-controls="m_table_1" rowspan="1" colspan="1" style="width: 92.25px;" aria-label="Company Agent: activate to sort column ascending">Company Agent</th><th class="sorting" tabindex="0" aria-controls="m_table_1" rowspan="1" colspan="1" style="width: 121.25px;" aria-label="Company Name: activate to sort column ascending">Company Name</th><th class="sorting" tabindex="0" aria-controls="m_table_1" rowspan="1" colspan="1" style="width: 54.25px;" aria-label="Status: activate to sort column ascending">Status</th><th class="sorting" tabindex="0" aria-controls="m_table_1" rowspan="1" colspan="1" style="width: 32.25px;" aria-label="Type: activate to sort column ascending">Type</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 69.5px;" aria-label="Actions">Actions</th></tr>
+									</thead>
+									<tbody>
+									<tr role="row" class="odd">
+											<td class="sorting_1" tabindex="0">
+											<div class="m-card-user m-card-user--sm">
+												<div class="m-card-user__pic">
+													<img src="https://keenthemes.com/metronic/themes/themes/metronic/dist/preview/assets/app/media/img/users/100_11.jpg" class="m--img-rounded m--marginless" alt="photo">
+												</div>
+												<div class="m-card-user__details">
+													<span class="m-card-user__name">Alden Dingate</span>
+													<a href="" class="m-card-user__email m-link">Heidenreich Inc</a>
+												</div>
+											</div></td>
+											<td><a class="m-link" href="mailto:adingate15@furl.net">adingate15@furl.net</a></td>
+											<td>Alden Dingate</td>
+											<td>Heidenreich Inc</td>
+											<td><span class="m-badge  m-badge--info m-badge--wide">Info</span></td>
+											<td><span class="m-badge m-badge--danger m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-danger">Online</span></td>
+											<td nowrap="">
+											<span class="dropdown">
+												<a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
+												<i class="la la-ellipsis-h"></i>
+												</a>
+												<div class="dropdown-menu dropdown-menu-right">
+													<a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
+													<a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
+													<a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
+												</div>
+											</span>
+											<a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+											<i class="la la-edit"></i>
+											</a></td>
+										</tr><tr role="row" class="even">
+											<td class="sorting_1" tabindex="0">
+                                <div class="m-card-user m-card-user--sm">
+                                    <div class="m-card-user__pic">
+                                        <img src="https://keenthemes.com/metronic/themes/themes/metronic/dist/preview/assets/app/media/img/users/100_11.jpg" class="m--img-rounded m--marginless" alt="photo">
+                                    </div>
+                                    <div class="m-card-user__details">
+                                        <span class="m-card-user__name">Alfonse Lawrance</span>
+                                        <a href="" class="m-card-user__email m-link">Schuppe-Harber</a>
+                                    </div>
+                                </div></td>
+											<td><a class="m-link" href="mailto:alawrance11@un.org">alawrance11@un.org</a></td>
+											<td>Alfonse Lawrance</td>
+											<td>Schuppe-Harber</td>
+											<td><span class="m-badge m-badge--brand m-badge--wide">Pending</span></td>
+											<td><span class="m-badge m-badge--accent m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-accent">Direct</span></td>
+											<td nowrap="">
+                        <span class="dropdown">
+                            <a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
+                              <i class="la la-ellipsis-h"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
+                                <a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
+                                <a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
+                            </div>
+                        </span>
+                        <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+                          <i class="la la-edit"></i>
+                        </a></td>
+										</tr><tr role="row" class="odd">
+											<td class="sorting_1" tabindex="0">
+                                <div class="m-card-user m-card-user--sm">
+                                    <div class="m-card-user__pic">
+                                        <div class="m-card-user__no-photo m--bg-fill-brand"><span>B</span></div>
+                                    </div>
+                                    <div class="m-card-user__details">
+                                        <span class="m-card-user__name">Bryn Peascod</span>
+                                        <a href="" class="m-card-user__email m-link">Larkin and Sons</a>
+                                    </div>
+                                </div></td>
+											<td><a class="m-link" href="mailto:bpeascodm@devhub.com">bpeascodm@devhub.com</a></td>
+											<td>Bryn Peascod</td>
+											<td>Larkin and Sons</td>
+											<td><span class="m-badge  m-badge--danger m-badge--wide">Danger</span></td>
+											<td><span class="m-badge m-badge--danger m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-danger">Online</span></td>
+											<td nowrap="">
+                        <span class="dropdown">
+                            <a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
+                              <i class="la la-ellipsis-h"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
+                                <a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
+                                <a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
+                            </div>
+                        </span>
+                        <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+                          <i class="la la-edit"></i>
+                        </a></td>
+										</tr><tr role="row" class="even">
+											<td class="sorting_1" tabindex="0">
+                                <div class="m-card-user m-card-user--sm">
+                                    <div class="m-card-user__pic">
+                                        <img src="https://keenthemes.com/metronic/themes/themes/metronic/dist/preview/assets/app/media/img/users/100_9.jpg" class="m--img-rounded m--marginless" alt="photo">
+                                    </div>
+                                    <div class="m-card-user__details">
+                                        <span class="m-card-user__name">Christa Jacmar</span>
+                                        <a href="" class="m-card-user__email m-link">Brakus-Hansen</a>
+                                    </div>
+                                </div></td>
+											<td><a class="m-link" href="mailto:cjacmare@google.pl">cjacmare@google.pl</a></td>
+											<td>Christa Jacmar</td>
+											<td>Brakus-Hansen</td>
+											<td><span class="m-badge m-badge--brand m-badge--wide">Pending</span></td>
+											<td><span class="m-badge m-badge--primary m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-primary">Retail</span></td>
+											<td nowrap="">
+                        <span class="dropdown">
+                            <a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
+                              <i class="la la-ellipsis-h"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
+                                <a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
+                                <a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
+                            </div>
+                        </span>
+                        <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+                          <i class="la la-edit"></i>
+                        </a></td>
+										</tr><tr role="row" class="odd">
+											<td class="sorting_1" tabindex="0">
+                                <div class="m-card-user m-card-user--sm">
+                                    <div class="m-card-user__pic">
+                                        <div class="m-card-user__no-photo m--bg-fill-metal"><span>D</span></div>
+                                    </div>
+                                    <div class="m-card-user__details">
+                                        <span class="m-card-user__name">Devi Iglesias</span>
+                                        <a href="" class="m-card-user__email m-link">Ullrich-Dibbert</a>
+                                    </div>
+                                </div></td>
+											<td><a class="m-link" href="mailto:diglesias1c@usa.gov">diglesias1c@usa.gov</a></td>
+											<td>Devi Iglesias</td>
+											<td>Ullrich-Dibbert</td>
+											<td><span class="m-badge m-badge--brand m-badge--wide">Pending</span></td>
+											<td><span class="m-badge m-badge--danger m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-danger">Online</span></td>
+											<td nowrap="">
+                        <span class="dropdown">
+                            <a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
+                              <i class="la la-ellipsis-h"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
+                                <a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
+                                <a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
+                            </div>
+                        </span>
+                        <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+                          <i class="la la-edit"></i>
+                        </a></td>
+										</tr><tr role="row" class="even">
+											<td class="sorting_1" tabindex="0">
+                                <div class="m-card-user m-card-user--sm">
+                                    <div class="m-card-user__pic">
+                                        <div class="m-card-user__no-photo m--bg-fill-accent"><span>F</span></div>
+                                    </div>
+                                    <div class="m-card-user__details">
+                                        <span class="m-card-user__name">Freda Arnall</span>
+                                        <a href="" class="m-card-user__email m-link">Dicki, Morar and Stiedemann</a>
+                                    </div>
+                                </div></td>
+											<td><a class="m-link" href="mailto:farnallv@vistaprint.com">farnallv@vistaprint.com</a></td>
+											<td>Freda Arnall</td>
+											<td>Dicki, Morar and Stiedemann</td>
+											<td><span class="m-badge  m-badge--primary m-badge--wide">Canceled</span></td>
+											<td><span class="m-badge m-badge--accent m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-accent">Direct</span></td>
+											<td nowrap="">
+                        <span class="dropdown">
+                            <a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
+                              <i class="la la-ellipsis-h"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
+                                <a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
+                                <a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
+                            </div>
+                        </span>
+                        <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+                          <i class="la la-edit"></i>
+                        </a></td>
+										</tr><tr role="row" class="odd">
+											<td tabindex="0" class="sorting_1">
+                                <div class="m-card-user m-card-user--sm">
+                                    <div class="m-card-user__pic">
+                                        <div class="m-card-user__no-photo m--bg-fill-warning"><span>H</span></div>
+                                    </div>
+                                    <div class="m-card-user__details">
+                                        <span class="m-card-user__name">Hazlett Kite</span>
+                                        <a href="" class="m-card-user__email m-link">Streich LLC</a>
+                                    </div>
+                                </div></td>
+											<td><a class="m-link" href="mailto:hkite7@epa.gov">hkite7@epa.gov</a></td>
+											<td>Hazlett Kite</td>
+											<td>Streich LLC</td>
+											<td><span class="m-badge  m-badge--danger m-badge--wide">Danger</span></td>
+											<td><span class="m-badge m-badge--danger m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-danger">Online</span></td>
+											<td nowrap="">
+                        <span class="dropdown">
+                            <a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
+                              <i class="la la-ellipsis-h"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
+                                <a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
+                                <a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
+                            </div>
+                        </span>
+                        <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+                          <i class="la la-edit"></i>
+                        </a></td>
+										</tr><tr role="row" class="even">
+											<td class="sorting_1" tabindex="0">
+                                <div class="m-card-user m-card-user--sm">
+                                    <div class="m-card-user__pic">
+                                        <img src="https://keenthemes.com/metronic/themes/themes/metronic/dist/preview/assets/app/media/img/users/100_13.jpg" class="m--img-rounded m--marginless" alt="photo">
+                                    </div>
+                                    <div class="m-card-user__details">
+                                        <span class="m-card-user__name">Heddi Castelli</span>
+                                        <a href="" class="m-card-user__email m-link">Kessler and Sons</a>
+                                    </div>
+                                </div></td>
+											<td><a class="m-link" href="mailto:hcastellir@nationalgeographic.com">hcastellir@nationalgeographic.com</a></td>
+											<td>Heddi Castelli</td>
+											<td>Kessler and Sons</td>
+											<td><span class="m-badge  m-badge--info m-badge--wide">Info</span></td>
+											<td><span class="m-badge m-badge--danger m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-danger">Online</span></td>
+											<td nowrap="">
+                        <span class="dropdown">
+                            <a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
+                              <i class="la la-ellipsis-h"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
+                                <a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
+                                <a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
+                            </div>
+                        </span>
+                        <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+                          <i class="la la-edit"></i>
+                        </a></td>
+										</tr><tr role="row" class="odd">
+											<td class="sorting_1" tabindex="0">
+                                <div class="m-card-user m-card-user--sm">
+                                    <div class="m-card-user__pic">
+                                        <img src="https://keenthemes.com/metronic/themes/themes/metronic/dist/preview/assets/app/media/img/users/100_14.jpg" class="m--img-rounded m--marginless" alt="photo">
+                                    </div>
+                                    <div class="m-card-user__details">
+                                        <span class="m-card-user__name">Hubey Passby</span>
+                                        <a href="" class="m-card-user__email m-link">Lemke-Hermiston</a>
+                                    </div>
+                                </div></td>
+											<td><a class="m-link" href="mailto:hpassbyz@wikimedia.org">hpassbyz@wikimedia.org</a></td>
+											<td>Hubey Passby</td>
+											<td>Lemke-Hermiston</td>
+											<td><span class="m-badge  m-badge--metal m-badge--wide">Delivered</span></td>
+											<td><span class="m-badge m-badge--accent m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-accent">Direct</span></td>
+											<td nowrap="">
+                        <span class="dropdown">
+                            <a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
+                              <i class="la la-ellipsis-h"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
+                                <a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
+                                <a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
+                            </div>
+                        </span>
+                        <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+                          <i class="la la-edit"></i>
+                        </a></td>
+										</tr><tr role="row" class="even">
+											<td class="sorting_1" tabindex="0">
+                                <div class="m-card-user m-card-user--sm">
+                                    <div class="m-card-user__pic">
+                                        <div class="m-card-user__no-photo m--bg-fill-info"><span>K</span></div>
+                                    </div>
+                                    <div class="m-card-user__details">
+                                        <span class="m-card-user__name">Kessiah Chettoe</span>
+                                        <a href="" class="m-card-user__email m-link">Mraz LLC</a>
+                                    </div>
+                                </div></td>
+											<td><a class="m-link" href="mailto:kchettoe12@zdnet.com">kchettoe12@zdnet.com</a></td>
+											<td>Kessiah Chettoe</td>
+											<td>Mraz LLC</td>
+											<td><span class="m-badge  m-badge--info m-badge--wide">Info</span></td>
+											<td><span class="m-badge m-badge--primary m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-primary">Retail</span></td>
+											<td nowrap="">
+                        <span class="dropdown">
+                            <a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
+                              <i class="la la-ellipsis-h"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
+                                <a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
+                                <a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
+                            </div>
+                        </span>
+                        <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+                          <i class="la la-edit"></i>
+                        </a></td>
+										</tr></tbody>
+								</table>
+						</div>
+
+						<!--End::Section-->
+
+					</div>
+				</div>
+
+
+				
 				
 			</div>
 
@@ -1135,11 +1479,17 @@
 		<script src="{{asset('js/jquery.js')}}" type="text/javascript"></script>
 		
 		<script src="{{asset('js/perfect-scrollbar.js')}}" type="text/javascript"></script>
+		
+		<script src="{{asset('js/vendors.bundle.js')}}" type="text/javascript"></script>
 		<script src="{{asset('js/scripts.bundle.js')}}" type="text/javascript"></script>
 		  
 
 		<script src="{{asset('js/dashboard.js')}}" type="text/javascript"></script>
+
 		
+		
+		<script src="{{asset('js/datatable.js')}}" type="text/javascript"></script>
+		<script src="{{asset('js/column-rendering.js')}}" type="text/javascript"></script>
 		  
 
 	</body>
