@@ -33,14 +33,15 @@
 
 		
 		<!--begin::Global Theme Styles -->
+		<link href="{{ asset('css/vendors.bundle.css')}}" rel="stylesheet" type="text/css" />
 		<link href="{{ asset('css/style.bundle.css')}}" rel="stylesheet" type="text/css" />
 
 		<!--RTL version:<link href="assets/demo/base/style.bundle.rtl.css" rel="stylesheet" type="text/css" />-->
 
 		<!--end::Global Theme Styles -->
 
-	<link href="{{ asset('css/app.css') }}" rel="stylesheet">
-	<link href="{{ asset('datatables.bundle.css') }}" rel="stylesheet" type="text/css" />
+	<!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
+	<link href="{{ asset('css/datatables.bundle.css') }}" rel="stylesheet" type="text/css" />
 		  
 		<!--end::Page Vendors Styles -->
 		<link rel="shortcut icon" href="assets/demo/media/img/logo/favicon.ico" />
@@ -186,475 +187,10 @@
 									</ul>
 								</div>
 							</li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-web"></i><span class="m-menu__link-text">Buttons</span><i
-									 class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">Buttons</span></span></li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-												 class="m-menu__link-text">Button Base</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true"><a href="components/buttons/base/default.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Default Style</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="components/buttons/base/square.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Square Style</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="components/buttons/base/pill.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Pill Style</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="components/buttons/base/air.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Air Style</span></a></li>
-												</ul>
-											</div>
-										</li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/buttons/group.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Button Group</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/buttons/dropdown.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Button Dropdown</span></a></li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-												 class="m-menu__link-text">Button Icon</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true"><a href="components/buttons/icon/lineawesome.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Lineawesome
-																Icons</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="components/buttons/icon/fontawesome.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Fontawesome
-																Icons</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="components/buttons/icon/flaticon.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Flaticon Icons</span></a></li>
-												</ul>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-interface-1"></i><span class="m-menu__link-text">Portlets</span><i
-									 class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">Portlets</span></span></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/portlets/base.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Base Portlets</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/portlets/advanced.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Advanced Portlets</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/portlets/creative.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Creative Portlets</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/portlets/tabbed.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Tabbed Portlets</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/portlets/draggable.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Draggable Portlets</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/portlets/tools.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Portlet Tools</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/portlets/sticky-head.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Sticky Head</span></a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-interface-6"></i><span class="m-menu__link-text">Timeline</span><i
-									 class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">Timeline</span></span></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/timeline/timeline-1.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Timeline 1</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/timeline/timeline-2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Timeline 2</span></a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-network"></i><span class="m-menu__link-text">Widgets</span><i
-									 class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">Widgets</span></span></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/widgets/general.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">General Widgets</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/widgets/chart.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Chart Widgets</span></a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-calendar"></i><span class="m-menu__link-text">Calendar</span><i
-									 class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">Calendar</span></span></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/calendar/basic.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Basic Calendar</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/calendar/list-view.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">List Views</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/calendar/google.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Google Calendar</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/calendar/external-events.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">External
-													Events</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/calendar/background-events.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Background
-													Events</span></a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-diagram"></i><span class="m-menu__link-text">Charts</span><i
-									 class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">Charts</span></span></li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-												 class="m-menu__link-text">amCharts</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true"><a href="components/charts/amcharts/charts.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">amCharts
-																Charts</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="components/charts/amcharts/stock-charts.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">amCharts
-																Stock Charts</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="components/charts/amcharts/maps.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">amCharts Maps</span></a></li>
-												</ul>
-											</div>
-										</li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/charts/flotcharts.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Flot Charts</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/charts/google-charts.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Google Charts</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/charts/morris-charts.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Morris Charts</span></a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-placeholder-1"></i><span class="m-menu__link-text">Maps</span><i
-									 class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">Maps</span></span></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/maps/google-maps.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Google Maps</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/maps/jqvmap.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">JQVMap</span></a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-signs-2"></i><span class="m-menu__link-text">Utils</span><i
-									 class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">Utils</span></span></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/utils/session-timeout.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Session Timeout</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="components/utils/idle-timer.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Idle Timer</span></a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="m-menu__section ">
-								<h4 class="m-menu__section-text">CRUD</h4>
-								<i class="m-menu__section-icon flaticon-more-v2"></i>
-							</li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-interface-7"></i><span class="m-menu__link-text">Forms
-										& Controls</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">Forms & Controls</span></span></li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-												 class="m-menu__link-text">Form Controls</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/controls/base.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Base Inputs</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/controls/checkbox-radio.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Checkbox &
-																Radio</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/controls/input-group.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Input Groups</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/controls/switch.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Switch</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/controls/option.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Mega Options</span></a></li>
-												</ul>
-											</div>
-										</li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-												 class="m-menu__link-text">Form Widgets</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/bootstrap-datepicker.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Datepicker</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/bootstrap-datetimepicker.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Datetimepicker</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/bootstrap-timepicker.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Timepicker</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/bootstrap-daterangepicker.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Daterangepicker</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/bootstrap-touchspin.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Touchspin</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/bootstrap-maxlength.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Maxlength</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/bootstrap-switch.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Switch</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/bootstrap-multipleselectsplitter.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Multiple
-																Select Splitter</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/bootstrap-select.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Bootstrap
-																Select</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/select2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Select2</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/typeahead.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Typeahead</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/nouislider.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">noUiSlider</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/form-repeater.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Form Repeater</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/ion-range-slider.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Ion Range
-																Slider</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/input-mask.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Input Masks</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/summernote.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Summernote
-																WYSIWYG</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/bootstrap-markdown.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Markdown
-																Editor</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/autosize.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Autosize</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/clipboard.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Clipboard</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/dropzone.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Dropzone</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/widgets/recaptcha.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Google reCaptcha</span></a></li>
-												</ul>
-											</div>
-										</li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-												 class="m-menu__link-text">Form Layouts</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/layouts/default-forms.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Default Forms</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/layouts/multi-column-forms.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Multi
-																Column Forms</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/layouts/action-bars.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Basic Action
-																Bars</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/layouts/sticky-action-bar.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Sticky
-																Action Bar</span></a></li>
-												</ul>
-											</div>
-										</li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-												 class="m-menu__link-text">Form Validation</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/validation/states.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Validation States</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/validation/form-controls.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Form
-																Controls</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/forms/validation/form-widgets.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Form Widgets</span></a></li>
-												</ul>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-interface-8"></i><span class="m-menu__link-text">Metronic
-										Wizard</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item " aria-haspopup="true"><a href="crud/wizard/wizard-1.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Form Wizard 1</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="crud/wizard/wizard-2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Form Wizard 2</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="crud/wizard/wizard-3.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Form Wizard 3</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="crud/wizard/wizard-4.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Form Wizard 4</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="crud/wizard/wizard-5.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Form Wizard 5</span></a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-tabs"></i><span class="m-menu__link-text">Metronic
-										Datatable</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">Metronic Datatable</span></span></li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-												 class="m-menu__link-text">Base</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/base/data-local.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Local
-																Data</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/base/data-json.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">JSON
-																Data</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/base/data-ajax.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Ajax
-																Data</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/base/html-table.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">HTML
-																Table</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/base/record-selection.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Record
-																Selection</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/base/local-sort.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Local
-																Sort</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/base/row-details.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Row
-																Details</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/base/column-rendering.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Column
-																Rendering</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/base/column-width.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Column
-																Width</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/base/responsive-columns.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Responsive
-																Columns</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/base/translation.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Translation</span></a></li>
-												</ul>
-											</div>
-										</li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-												 class="m-menu__link-text">Scrolling</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/scrolling/vertical.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Vertical
-																Scrolling</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/scrolling/horizontal.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Horizontal
-																Scrolling</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/scrolling/both.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Both
-																Scrolling</span></a></li>
-												</ul>
-											</div>
-										</li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-												 class="m-menu__link-text">Locked Columns</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/locked/left.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Left Locked
-																Columns</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/locked/right.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Right
-																Locked Columns</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/locked/both.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Both Locked
-																Columns</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/locked/html-table.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">HTML
-																Table</span></a></li>
-												</ul>
-											</div>
-										</li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-												 class="m-menu__link-text">Child Datatables</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/child/data-local.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Local
-																Data</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/child/data-ajax.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Remote
-																Data</span></a></li>
-												</ul>
-											</div>
-										</li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-												 class="m-menu__link-text">API</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/api/methods.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">API Methods</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/metronic-datatable/api/events.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Events</span></a></li>
-												</ul>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-list-3"></i><span class="m-menu__link-text">DataTables</span><i
-									 class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">DataTables</span></span></li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-												 class="m-menu__link-text">Basic</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/basic/basic.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Basic Tables</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/basic/scrollable.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Scrollable
-																Tables</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/basic/headers.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Complex Headers</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/basic/paginations.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Pagination
-																Options</span></a></li>
-												</ul>
-											</div>
-										</li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-												 class="m-menu__link-text">Advanced</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/advanced/column-rendering.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Column
-																Rendering</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/advanced/multiple-controls.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Multiple
-																Controls</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/advanced/column-visibility.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Column
-																Visibility</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/advanced/row-callback.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Row
-																Callback</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/advanced/row-grouping.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Row
-																Grouping</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/advanced/footer-callback.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Footer
-																Callback</span></a></li>
-												</ul>
-											</div>
-										</li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-												 class="m-menu__link-text">Data sources</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/data-sources/html.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">HTML</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/data-sources/javascript.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Javascript</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/data-sources/ajax-client-side.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Ajax
-																Client-side</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/data-sources/ajax-server-side.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Ajax
-																Server-side</span></a></li>
-												</ul>
-											</div>
-										</li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-												 class="m-menu__link-text">Search Options</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/search-options/column-search.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Column
-																Search</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/search-options/advanced-search.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Advanced
-																Search</span></a></li>
-												</ul>
-											</div>
-										</li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-												 class="m-menu__link-text">Extensions</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/extensions/buttons.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Buttons</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/extensions/colreorder.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">ColReorder</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/extensions/keytable.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">KeyTable</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/extensions/responsive.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Responsive</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/extensions/rowgroup.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">RowGroup</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/extensions/rowreorder.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">RowReorder</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/extensions/scroller.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Scroller</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a href="crud/datatables/extensions/select.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Select</span></a></li>
-												</ul>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="m-menu__section ">
-								<h4 class="m-menu__section-text">Snippets</h4>
-								<i class="m-menu__section-icon flaticon-more-v2"></i>
-							</li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-interface-9"></i><span class="m-menu__link-text">Pricing
-										Tables</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">Pricing Tables</span></span></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="snippets/general/pricing-tables/pricing-table-1.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Pricing
-													Tables v1</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="snippets/general/pricing-tables/pricing-table-2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Pricing
-													Tables v2</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="snippets/general/pricing-tables/pricing-table-3.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Pricing
-													Tables v3</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="snippets/general/pricing-tables/pricing-table-4.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Pricing
-													Tables v4</span></a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-piggy-bank"></i><span class="m-menu__link-text">Invoices</span><i
-									 class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">Invoices</span></span></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="snippets/invoices/invoice-1.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Invoice v1</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="snippets/invoices/invoice-2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Invoice v2</span></a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-exclamation"></i><span class="m-menu__link-text">FAQS</span><i
-									 class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">FAQS</span></span></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="snippets/faq/faq-1.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">FAQ v1</span></a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-suitcase"></i><span class="m-menu__link-text">Custom
-										Pages</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">Custom Pages</span></span></li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-												 class="m-menu__link-text">User Pages</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="snippets/pages/user/login-1.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Login
-																- 1</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="snippets/pages/user/login-2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Login
-																- 2</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="snippets/pages/user/login-3.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Login
-																- 3</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="snippets/pages/user/login-4.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Login
-																- 4</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="snippets/pages/user/login-5.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Login
-																- 5</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="snippets/pages/user/login-6.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Login
-																- 6</span></a></li>
-												</ul>
-											</div>
-										</li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-												 class="m-menu__link-text">Error Pages</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="snippets/pages/errors/error-1.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Error
-																1</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="snippets/pages/errors/error-2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Error
-																2</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="snippets/pages/errors/error-3.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Error
-																3</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="snippets/pages/errors/error-4.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Error
-																4</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="snippets/pages/errors/error-5.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Error
-																5</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="snippets/pages/errors/error-6.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Error
-																6</span></a></li>
-												</ul>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</li>
+							
+							
+							
+							
 						</ul>
 					</div>
 
@@ -741,261 +277,261 @@
 											<td><span class="m-badge m-badge--brand m-badge--wide">Pending</span></td>
 											<td><span class="m-badge m-badge--accent m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-accent">Direct</span></td>
 											<td nowrap="">
-                        <span class="dropdown">
-                            <a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
-                              <i class="la la-ellipsis-h"></i>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right">
-                                <a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
-                                <a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
-                                <a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
-                            </div>
-                        </span>
-                        <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
-                          <i class="la la-edit"></i>
-                        </a></td>
-										</tr><tr role="row" class="odd">
-											<td class="sorting_1" tabindex="0">
-                                <div class="m-card-user m-card-user--sm">
-                                    <div class="m-card-user__pic">
-                                        <div class="m-card-user__no-photo m--bg-fill-brand"><span>B</span></div>
-                                    </div>
-                                    <div class="m-card-user__details">
-                                        <span class="m-card-user__name">Bryn Peascod</span>
-                                        <a href="" class="m-card-user__email m-link">Larkin and Sons</a>
-                                    </div>
-                                </div></td>
-											<td><a class="m-link" href="mailto:bpeascodm@devhub.com">bpeascodm@devhub.com</a></td>
-											<td>Bryn Peascod</td>
-											<td>Larkin and Sons</td>
-											<td><span class="m-badge  m-badge--danger m-badge--wide">Danger</span></td>
-											<td><span class="m-badge m-badge--danger m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-danger">Online</span></td>
-											<td nowrap="">
-                        <span class="dropdown">
-                            <a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
-                              <i class="la la-ellipsis-h"></i>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right">
-                                <a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
-                                <a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
-                                <a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
-                            </div>
-                        </span>
-                        <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
-                          <i class="la la-edit"></i>
-                        </a></td>
-										</tr><tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">
-                                <div class="m-card-user m-card-user--sm">
-                                    <div class="m-card-user__pic">
-                                        <img src="https://keenthemes.com/metronic/themes/themes/metronic/dist/preview/assets/app/media/img/users/100_9.jpg" class="m--img-rounded m--marginless" alt="photo">
-                                    </div>
-                                    <div class="m-card-user__details">
-                                        <span class="m-card-user__name">Christa Jacmar</span>
-                                        <a href="" class="m-card-user__email m-link">Brakus-Hansen</a>
-                                    </div>
-                                </div></td>
-											<td><a class="m-link" href="mailto:cjacmare@google.pl">cjacmare@google.pl</a></td>
-											<td>Christa Jacmar</td>
-											<td>Brakus-Hansen</td>
-											<td><span class="m-badge m-badge--brand m-badge--wide">Pending</span></td>
-											<td><span class="m-badge m-badge--primary m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-primary">Retail</span></td>
-											<td nowrap="">
-                        <span class="dropdown">
-                            <a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
-                              <i class="la la-ellipsis-h"></i>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right">
-                                <a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
-                                <a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
-                                <a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
-                            </div>
-                        </span>
-                        <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
-                          <i class="la la-edit"></i>
-                        </a></td>
-										</tr><tr role="row" class="odd">
-											<td class="sorting_1" tabindex="0">
-                                <div class="m-card-user m-card-user--sm">
-                                    <div class="m-card-user__pic">
-                                        <div class="m-card-user__no-photo m--bg-fill-metal"><span>D</span></div>
-                                    </div>
-                                    <div class="m-card-user__details">
-                                        <span class="m-card-user__name">Devi Iglesias</span>
-                                        <a href="" class="m-card-user__email m-link">Ullrich-Dibbert</a>
-                                    </div>
-                                </div></td>
-											<td><a class="m-link" href="mailto:diglesias1c@usa.gov">diglesias1c@usa.gov</a></td>
-											<td>Devi Iglesias</td>
-											<td>Ullrich-Dibbert</td>
-											<td><span class="m-badge m-badge--brand m-badge--wide">Pending</span></td>
-											<td><span class="m-badge m-badge--danger m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-danger">Online</span></td>
-											<td nowrap="">
-                        <span class="dropdown">
-                            <a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
-                              <i class="la la-ellipsis-h"></i>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right">
-                                <a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
-                                <a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
-                                <a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
-                            </div>
-                        </span>
-                        <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
-                          <i class="la la-edit"></i>
-                        </a></td>
-										</tr><tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">
-                                <div class="m-card-user m-card-user--sm">
-                                    <div class="m-card-user__pic">
-                                        <div class="m-card-user__no-photo m--bg-fill-accent"><span>F</span></div>
-                                    </div>
-                                    <div class="m-card-user__details">
-                                        <span class="m-card-user__name">Freda Arnall</span>
-                                        <a href="" class="m-card-user__email m-link">Dicki, Morar and Stiedemann</a>
-                                    </div>
-                                </div></td>
-											<td><a class="m-link" href="mailto:farnallv@vistaprint.com">farnallv@vistaprint.com</a></td>
-											<td>Freda Arnall</td>
-											<td>Dicki, Morar and Stiedemann</td>
-											<td><span class="m-badge  m-badge--primary m-badge--wide">Canceled</span></td>
-											<td><span class="m-badge m-badge--accent m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-accent">Direct</span></td>
-											<td nowrap="">
-                        <span class="dropdown">
-                            <a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
-                              <i class="la la-ellipsis-h"></i>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right">
-                                <a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
-                                <a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
-                                <a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
-                            </div>
-                        </span>
-                        <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
-                          <i class="la la-edit"></i>
-                        </a></td>
-										</tr><tr role="row" class="odd">
-											<td tabindex="0" class="sorting_1">
-                                <div class="m-card-user m-card-user--sm">
-                                    <div class="m-card-user__pic">
-                                        <div class="m-card-user__no-photo m--bg-fill-warning"><span>H</span></div>
-                                    </div>
-                                    <div class="m-card-user__details">
-                                        <span class="m-card-user__name">Hazlett Kite</span>
-                                        <a href="" class="m-card-user__email m-link">Streich LLC</a>
-                                    </div>
-                                </div></td>
-											<td><a class="m-link" href="mailto:hkite7@epa.gov">hkite7@epa.gov</a></td>
-											<td>Hazlett Kite</td>
-											<td>Streich LLC</td>
-											<td><span class="m-badge  m-badge--danger m-badge--wide">Danger</span></td>
-											<td><span class="m-badge m-badge--danger m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-danger">Online</span></td>
-											<td nowrap="">
-                        <span class="dropdown">
-                            <a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
-                              <i class="la la-ellipsis-h"></i>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right">
-                                <a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
-                                <a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
-                                <a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
-                            </div>
-                        </span>
-                        <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
-                          <i class="la la-edit"></i>
-                        </a></td>
-										</tr><tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">
-                                <div class="m-card-user m-card-user--sm">
-                                    <div class="m-card-user__pic">
-                                        <img src="https://keenthemes.com/metronic/themes/themes/metronic/dist/preview/assets/app/media/img/users/100_13.jpg" class="m--img-rounded m--marginless" alt="photo">
-                                    </div>
-                                    <div class="m-card-user__details">
-                                        <span class="m-card-user__name">Heddi Castelli</span>
-                                        <a href="" class="m-card-user__email m-link">Kessler and Sons</a>
-                                    </div>
-                                </div></td>
-											<td><a class="m-link" href="mailto:hcastellir@nationalgeographic.com">hcastellir@nationalgeographic.com</a></td>
-											<td>Heddi Castelli</td>
-											<td>Kessler and Sons</td>
-											<td><span class="m-badge  m-badge--info m-badge--wide">Info</span></td>
-											<td><span class="m-badge m-badge--danger m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-danger">Online</span></td>
-											<td nowrap="">
-                        <span class="dropdown">
-                            <a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
-                              <i class="la la-ellipsis-h"></i>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right">
-                                <a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
-                                <a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
-                                <a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
-                            </div>
-                        </span>
-                        <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
-                          <i class="la la-edit"></i>
-                        </a></td>
-										</tr><tr role="row" class="odd">
-											<td class="sorting_1" tabindex="0">
-                                <div class="m-card-user m-card-user--sm">
-                                    <div class="m-card-user__pic">
-                                        <img src="https://keenthemes.com/metronic/themes/themes/metronic/dist/preview/assets/app/media/img/users/100_14.jpg" class="m--img-rounded m--marginless" alt="photo">
-                                    </div>
-                                    <div class="m-card-user__details">
-                                        <span class="m-card-user__name">Hubey Passby</span>
-                                        <a href="" class="m-card-user__email m-link">Lemke-Hermiston</a>
-                                    </div>
-                                </div></td>
-											<td><a class="m-link" href="mailto:hpassbyz@wikimedia.org">hpassbyz@wikimedia.org</a></td>
-											<td>Hubey Passby</td>
-											<td>Lemke-Hermiston</td>
-											<td><span class="m-badge  m-badge--metal m-badge--wide">Delivered</span></td>
-											<td><span class="m-badge m-badge--accent m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-accent">Direct</span></td>
-											<td nowrap="">
-                        <span class="dropdown">
-                            <a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
-                              <i class="la la-ellipsis-h"></i>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right">
-                                <a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
-                                <a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
-                                <a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
-                            </div>
-                        </span>
-                        <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
-                          <i class="la la-edit"></i>
-                        </a></td>
-										</tr><tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">
-                                <div class="m-card-user m-card-user--sm">
-                                    <div class="m-card-user__pic">
-                                        <div class="m-card-user__no-photo m--bg-fill-info"><span>K</span></div>
-                                    </div>
-                                    <div class="m-card-user__details">
-                                        <span class="m-card-user__name">Kessiah Chettoe</span>
-                                        <a href="" class="m-card-user__email m-link">Mraz LLC</a>
-                                    </div>
-                                </div></td>
-											<td><a class="m-link" href="mailto:kchettoe12@zdnet.com">kchettoe12@zdnet.com</a></td>
-											<td>Kessiah Chettoe</td>
-											<td>Mraz LLC</td>
-											<td><span class="m-badge  m-badge--info m-badge--wide">Info</span></td>
-											<td><span class="m-badge m-badge--primary m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-primary">Retail</span></td>
-											<td nowrap="">
-                        <span class="dropdown">
-                            <a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
-                              <i class="la la-ellipsis-h"></i>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right">
-                                <a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
-                                <a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
-                                <a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
-                            </div>
-                        </span>
-                        <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
-                          <i class="la la-edit"></i>
-                        </a></td>
-										</tr></tbody>
-								</table>
+								<span class="dropdown">
+									<a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
+									<i class="la la-ellipsis-h"></i>
+									</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
+										<a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
+										<a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
+									</div>
+								</span>
+								<a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+								<i class="la la-edit"></i>
+								</a></td>
+												</tr><tr role="row" class="odd">
+													<td class="sorting_1" tabindex="0">
+										<div class="m-card-user m-card-user--sm">
+											<div class="m-card-user__pic">
+												<div class="m-card-user__no-photo m--bg-fill-brand"><span>B</span></div>
+											</div>
+											<div class="m-card-user__details">
+												<span class="m-card-user__name">Bryn Peascod</span>
+												<a href="" class="m-card-user__email m-link">Larkin and Sons</a>
+											</div>
+										</div></td>
+													<td><a class="m-link" href="mailto:bpeascodm@devhub.com">bpeascodm@devhub.com</a></td>
+													<td>Bryn Peascod</td>
+													<td>Larkin and Sons</td>
+													<td><span class="m-badge  m-badge--danger m-badge--wide">Danger</span></td>
+													<td><span class="m-badge m-badge--danger m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-danger">Online</span></td>
+													<td nowrap="">
+								<span class="dropdown">
+									<a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
+									<i class="la la-ellipsis-h"></i>
+									</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
+										<a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
+										<a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
+									</div>
+								</span>
+								<a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+								<i class="la la-edit"></i>
+								</a></td>
+												</tr><tr role="row" class="even">
+													<td class="sorting_1" tabindex="0">
+										<div class="m-card-user m-card-user--sm">
+											<div class="m-card-user__pic">
+												<img src="https://keenthemes.com/metronic/themes/themes/metronic/dist/preview/assets/app/media/img/users/100_9.jpg" class="m--img-rounded m--marginless" alt="photo">
+											</div>
+											<div class="m-card-user__details">
+												<span class="m-card-user__name">Christa Jacmar</span>
+												<a href="" class="m-card-user__email m-link">Brakus-Hansen</a>
+											</div>
+										</div></td>
+													<td><a class="m-link" href="mailto:cjacmare@google.pl">cjacmare@google.pl</a></td>
+													<td>Christa Jacmar</td>
+													<td>Brakus-Hansen</td>
+													<td><span class="m-badge m-badge--brand m-badge--wide">Pending</span></td>
+													<td><span class="m-badge m-badge--primary m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-primary">Retail</span></td>
+													<td nowrap="">
+								<span class="dropdown">
+									<a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
+									<i class="la la-ellipsis-h"></i>
+									</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
+										<a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
+										<a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
+									</div>
+								</span>
+								<a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+								<i class="la la-edit"></i>
+								</a></td>
+												</tr><tr role="row" class="odd">
+													<td class="sorting_1" tabindex="0">
+										<div class="m-card-user m-card-user--sm">
+											<div class="m-card-user__pic">
+												<div class="m-card-user__no-photo m--bg-fill-metal"><span>D</span></div>
+											</div>
+											<div class="m-card-user__details">
+												<span class="m-card-user__name">Devi Iglesias</span>
+												<a href="" class="m-card-user__email m-link">Ullrich-Dibbert</a>
+											</div>
+										</div></td>
+													<td><a class="m-link" href="mailto:diglesias1c@usa.gov">diglesias1c@usa.gov</a></td>
+													<td>Devi Iglesias</td>
+													<td>Ullrich-Dibbert</td>
+													<td><span class="m-badge m-badge--brand m-badge--wide">Pending</span></td>
+													<td><span class="m-badge m-badge--danger m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-danger">Online</span></td>
+													<td nowrap="">
+								<span class="dropdown">
+									<a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
+									<i class="la la-ellipsis-h"></i>
+									</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
+										<a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
+										<a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
+									</div>
+								</span>
+								<a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+								<i class="la la-edit"></i>
+								</a></td>
+												</tr><tr role="row" class="even">
+													<td class="sorting_1" tabindex="0">
+										<div class="m-card-user m-card-user--sm">
+											<div class="m-card-user__pic">
+												<div class="m-card-user__no-photo m--bg-fill-accent"><span>F</span></div>
+											</div>
+											<div class="m-card-user__details">
+												<span class="m-card-user__name">Freda Arnall</span>
+												<a href="" class="m-card-user__email m-link">Dicki, Morar and Stiedemann</a>
+											</div>
+										</div></td>
+													<td><a class="m-link" href="mailto:farnallv@vistaprint.com">farnallv@vistaprint.com</a></td>
+													<td>Freda Arnall</td>
+													<td>Dicki, Morar and Stiedemann</td>
+													<td><span class="m-badge  m-badge--primary m-badge--wide">Canceled</span></td>
+													<td><span class="m-badge m-badge--accent m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-accent">Direct</span></td>
+													<td nowrap="">
+								<span class="dropdown">
+									<a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
+									<i class="la la-ellipsis-h"></i>
+									</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
+										<a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
+										<a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
+									</div>
+								</span>
+								<a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+								<i class="la la-edit"></i>
+								</a></td>
+												</tr><tr role="row" class="odd">
+													<td tabindex="0" class="sorting_1">
+										<div class="m-card-user m-card-user--sm">
+											<div class="m-card-user__pic">
+												<div class="m-card-user__no-photo m--bg-fill-warning"><span>H</span></div>
+											</div>
+											<div class="m-card-user__details">
+												<span class="m-card-user__name">Hazlett Kite</span>
+												<a href="" class="m-card-user__email m-link">Streich LLC</a>
+											</div>
+										</div></td>
+													<td><a class="m-link" href="mailto:hkite7@epa.gov">hkite7@epa.gov</a></td>
+													<td>Hazlett Kite</td>
+													<td>Streich LLC</td>
+													<td><span class="m-badge  m-badge--danger m-badge--wide">Danger</span></td>
+													<td><span class="m-badge m-badge--danger m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-danger">Online</span></td>
+													<td nowrap="">
+								<span class="dropdown">
+									<a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
+									<i class="la la-ellipsis-h"></i>
+									</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
+										<a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
+										<a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
+									</div>
+								</span>
+								<a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+								<i class="la la-edit"></i>
+								</a></td>
+												</tr><tr role="row" class="even">
+													<td class="sorting_1" tabindex="0">
+										<div class="m-card-user m-card-user--sm">
+											<div class="m-card-user__pic">
+												<img src="https://keenthemes.com/metronic/themes/themes/metronic/dist/preview/assets/app/media/img/users/100_13.jpg" class="m--img-rounded m--marginless" alt="photo">
+											</div>
+											<div class="m-card-user__details">
+												<span class="m-card-user__name">Heddi Castelli</span>
+												<a href="" class="m-card-user__email m-link">Kessler and Sons</a>
+											</div>
+										</div></td>
+													<td><a class="m-link" href="mailto:hcastellir@nationalgeographic.com">hcastellir@nationalgeographic.com</a></td>
+													<td>Heddi Castelli</td>
+													<td>Kessler and Sons</td>
+													<td><span class="m-badge  m-badge--info m-badge--wide">Info</span></td>
+													<td><span class="m-badge m-badge--danger m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-danger">Online</span></td>
+													<td nowrap="">
+								<span class="dropdown">
+									<a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
+									<i class="la la-ellipsis-h"></i>
+									</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
+										<a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
+										<a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
+									</div>
+								</span>
+								<a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+								<i class="la la-edit"></i>
+								</a></td>
+												</tr><tr role="row" class="odd">
+													<td class="sorting_1" tabindex="0">
+										<div class="m-card-user m-card-user--sm">
+											<div class="m-card-user__pic">
+												<img src="https://keenthemes.com/metronic/themes/themes/metronic/dist/preview/assets/app/media/img/users/100_14.jpg" class="m--img-rounded m--marginless" alt="photo">
+											</div>
+											<div class="m-card-user__details">
+												<span class="m-card-user__name">Hubey Passby</span>
+												<a href="" class="m-card-user__email m-link">Lemke-Hermiston</a>
+											</div>
+										</div></td>
+													<td><a class="m-link" href="mailto:hpassbyz@wikimedia.org">hpassbyz@wikimedia.org</a></td>
+													<td>Hubey Passby</td>
+													<td>Lemke-Hermiston</td>
+													<td><span class="m-badge  m-badge--metal m-badge--wide">Delivered</span></td>
+													<td><span class="m-badge m-badge--accent m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-accent">Direct</span></td>
+													<td nowrap="">
+								<span class="dropdown">
+									<a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
+									<i class="la la-ellipsis-h"></i>
+									</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
+										<a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
+										<a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
+									</div>
+								</span>
+								<a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+								<i class="la la-edit"></i>
+								</a></td>
+												</tr><tr role="row" class="even">
+													<td class="sorting_1" tabindex="0">
+										<div class="m-card-user m-card-user--sm">
+											<div class="m-card-user__pic">
+												<div class="m-card-user__no-photo m--bg-fill-info"><span>K</span></div>
+											</div>
+											<div class="m-card-user__details">
+												<span class="m-card-user__name">Kessiah Chettoe</span>
+												<a href="" class="m-card-user__email m-link">Mraz LLC</a>
+											</div>
+										</div></td>
+													<td><a class="m-link" href="mailto:kchettoe12@zdnet.com">kchettoe12@zdnet.com</a></td>
+													<td>Kessiah Chettoe</td>
+													<td>Mraz LLC</td>
+													<td><span class="m-badge  m-badge--info m-badge--wide">Info</span></td>
+													<td><span class="m-badge m-badge--primary m-badge--dot"></span>&nbsp;<span class="m--font-bold m--font-primary">Retail</span></td>
+													<td nowrap="">
+								<span class="dropdown">
+									<a href="#" class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" data-toggle="dropdown" aria-expanded="true">
+									<i class="la la-ellipsis-h"></i>
+									</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="#"><i class="la la-edit"></i> Edit Details</a>
+										<a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>
+										<a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>
+									</div>
+								</span>
+								<a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+								<i class="la la-edit"></i>
+								</a></td>
+												</tr></tbody>
+						</table>
 						</div>
 
 						<!--End::Section-->
@@ -1476,22 +1012,25 @@
 		  
 		<!-- end::Scroll Top -->
 
-		<script src="{{asset('js/jquery.js')}}" type="text/javascript"></script>
 		
-		<script src="{{asset('js/perfect-scrollbar.js')}}" type="text/javascript"></script>
 		
 		<script src="{{asset('js/vendors.bundle.js')}}" type="text/javascript"></script>
+		<!-- <script src="{{asset('js/perfect-scrollbar.js')}}" type="text/javascript"></script> -->
+		
 		<script src="{{asset('js/scripts.bundle.js')}}" type="text/javascript"></script>
 		  
-
-		<script src="{{asset('js/dashboard.js')}}" type="text/javascript"></script>
-
-		
-		
-		<script src="{{asset('js/datatable.js')}}" type="text/javascript"></script>
+		<script src="{{asset('js/datatables.bundle.js')}}" type="text/javascript"></script>
 		<script src="{{asset('js/column-rendering.js')}}" type="text/javascript"></script>
 		  
 
+		<!-- <script src="{{asset('js/perfect-scrollbar.js')}}" type="text/javascript"></script> -->
+
+
+
+
+		
+		  
+		  
 	</body>
 
 	<!-- end::Body -->
