@@ -12,4 +12,12 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+    .js('resources/js/metro/jquery.js', 'public/js')
+    .js('resources/js/metro/scripts.bundle.js', 'public/js')
+    .js('resources/js/metro/perfect-scrollbar.js', 'public/js')
+    .js('resources/js/metro/dashboard.js', 'public/js')
+
+
+    .sass('resources/sass/metro/perfect-scrollbar.scss', 'public/css')
+    .sass('resources/sass/metro/style.bundle.scss', 'public/css')
+    .sass('resources/sass/app.scss', 'public/css');
